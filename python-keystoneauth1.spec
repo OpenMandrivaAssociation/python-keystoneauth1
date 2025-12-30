@@ -1,6 +1,6 @@
 Name:		python-keystoneauth1
 Version:	5.9.1
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/k/keystoneauth1/keystoneauth1-%{version}.tar.gz
 Summary:	Authentication Library for OpenStack Identity
 URL:		https://pypi.org/project/keystoneauth1/
