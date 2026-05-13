@@ -1,7 +1,7 @@
 %define module keystoneauth1
 
 Name:		python-keystoneauth1
-Version:	5.13.1
+Version:	5.14.0
 Release:	1
 Summary:	Authentication Library for OpenStack Identity
 License:	Apache-2.0
