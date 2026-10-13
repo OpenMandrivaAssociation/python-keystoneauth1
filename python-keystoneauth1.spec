@@ -1,7 +1,7 @@
 %define module keystoneauth1
 
 Name:		python-keystoneauth1
-Version:	5.15.0
+Version:	5.18.1
 Release:	1
 Summary:	Authentication Library for OpenStack Identity
 License:	Apache-2.0
@@ -22,6 +22,9 @@ Authentication Library for OpenStack Identity.
 %prep -a
 # Remove bundled egg-info
 rm -rf %{module}.egg-info
+
+%build -p
+export PBR_VERSION="%{version}"
 
 %files
 %{py_sitedir}/%{module}
